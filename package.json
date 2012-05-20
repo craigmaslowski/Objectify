@@ -21,9 +21,6 @@
     "objectify",
     "text file"
   ],
-  "dependencies" : {
-    "file":  ">=0.2.1"
-  },
   "devDependencies": {
     "jasmine-node":  ">=1.0.26"
   },

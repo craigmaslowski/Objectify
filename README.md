@@ -54,3 +54,5 @@ Would populate the result variable with an object like so:
 	}
 }
 ~~~
+
+Please note: All file operations are performed synchronously. As such, it's best to use objectify when your app starts.

@@ -1,7 +1,7 @@
 Objectify
 =========
 
-Objectify recurses over a directory reading all text files that match a given set of extensions. It builds an object tree that matches the directory's structure into an object.
+Objectify recurses over a directory and builds an object tree that matches the directory's structure while reading the contents of each file into a property on the tree.
 
 ~~~
 npm install objectify

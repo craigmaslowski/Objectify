@@ -30,7 +30,7 @@ Then calling:
 ```JavaScript
 var objectify = require('objectify');
 
-var result = objectify.get('./templates', {	extensions: ['html'] });
+var result = objectify('./templates', {	extensions: ['html'] });
 ```
 
 Would populate the result variable with an object like so:

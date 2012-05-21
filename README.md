@@ -56,4 +56,13 @@ Would populate the result variable with an object like so:
 }
 ~~~
 
+### Encoding
+Objectify reads text files using utf8 encoding by default. You can specify encoding like so.
+
+```JavaScript
+var objectify = require('objectify');
+
+var result = objectify('./templates', {	extensions: ['html'], encoding: 'ascii' });
+```
+
 Please note: All file operations are performed synchronously. As such, it's best to use objectify when your app starts.

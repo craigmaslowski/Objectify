@@ -3,6 +3,9 @@ Objectify
 
 Objectify recurses over a directory and builds an object tree that matches the directory's structure while reading the contents of each file into a property on the tree.
 
+[![Build Status](https://secure.travis-ci.org/craigmaslowski/objectify.png)](http://travis-ci.org/craigmaslowski/objectify)
+
+
 ~~~
 npm install objectify
 ~~~

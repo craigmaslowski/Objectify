@@ -1,6 +1,6 @@
 {
   "name": "objectify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Craig Maslowski <craig@craigmaslowski.com>",
   "description": "Walks a directory of text files and creates an object based on the directory and files names.",
   "contributors": [ 
